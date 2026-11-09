@@ -3,8 +3,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'loan-default-project'
-primary_region = 'jnb'
+app = "loan-default-project"
+primary_region = "jnb"
 
 [build]
   dockerfile = 'Dockerfile'
@@ -18,7 +18,6 @@ primary_region = 'jnb'
   processes = ['app']
 
 [[vm]]
-  memory = '512mb'
-  cpu_kind = 'shared'
+  memory = "1024mb"
+  cpu_kind = "shared"
   cpus = 1
-  memory_mb = 1024
