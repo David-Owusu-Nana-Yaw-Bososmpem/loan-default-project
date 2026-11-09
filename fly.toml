@@ -1,7 +1,7 @@
 # fly.toml — deploy with: fly deploy
 
 app = "loan-default-api"
-primary_region = "iad"
+primary_region = "jnb"
 
 [build]
   dockerfile = "Dockerfile"
