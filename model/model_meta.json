@@ -1,0 +1,52 @@
+{
+  "models_compared": [
+    "LogisticRegression",
+    "RandomForest",
+    "GradientBoosting",
+    "HistGradientBoosting"
+  ],
+  "baseline_results": {
+    "LogisticRegression": {
+      "test_auc": 0.8319123897756825,
+      "test_ap": 0.6266512560630043
+    },
+    "RandomForest": {
+      "test_auc": 0.9272542229221131,
+      "test_ap": 0.858724820552802
+    },
+    "GradientBoosting": {
+      "test_auc": 0.9330535331431358,
+      "test_ap": 0.8684904358036382
+    },
+    "HistGradientBoosting": {
+      "test_auc": 0.9418709814494789,
+      "test_ap": 0.8860015255654051
+    }
+  },
+  "best_baseline": "HistGradientBoosting",
+  "tuned_model": "HistGradientBoosting",
+  "feature_cols": [
+    "customer_age",
+    "customer_income",
+    "home_ownership",
+    "employment_duration",
+    "loan_intent",
+    "loan_grade",
+    "loan_amnt",
+    "loan_int_rate",
+    "term_years",
+    "historical_default",
+    "cred_hist_length",
+    "loan_to_income",
+    "income_per_year_emp"
+  ],
+  "best_params": {
+    "clf__min_samples_leaf": 20,
+    "clf__max_iter": 150,
+    "clf__max_depth": 8,
+    "clf__learning_rate": 0.1
+  },
+  "test_auc": 0.9421288958423518,
+  "test_ap": 0.8880265256025378,
+  "model_file": "model.pkl"
+}
