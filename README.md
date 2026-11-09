@@ -1,4 +1,4 @@
-# Loan Default Prediction – ML Zoomcamp Capstone
+# Loan Default Prediction –MIDTERM
 
 Binary classification project that predicts whether a loan application will **default**.
 
