@@ -1,4 +1,4 @@
-# Loan Default Prediction –MIDTERM
+# Loan Default Prediction – ML Zoomcamp Midterm Project
 
 Binary classification project that predicts whether a loan application will **default**.
 
